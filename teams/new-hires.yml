@@ -39,9 +39,8 @@ team_settings:
       policy_ids:
         - 47
         - 50
-org_settings:
   secrets:
-    - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
+  - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
