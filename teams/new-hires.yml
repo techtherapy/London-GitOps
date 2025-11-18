@@ -49,3 +49,6 @@ software:
   - path: ../lib/macos/software/zoom.yml
     self_service: true
     setup_experience: true
+  packages:
+  - path: ../lib/windows/software/cloudflare-warp.yml
+    self_service: false
